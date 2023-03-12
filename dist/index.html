@@ -4,15 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.min.css?_v=20230312112343">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css?_v=20230312152843">
+    <link rel="stylesheet" href="css/style.min.css?_v=20230312152843">
     <title>Document</title>
   </head>
   <body> 
     <div class="wrapper"> 
       <header class="header"> 
         <div class="container"> 
-          <div class="header__ad"><a href="#"><picture><source srcset="img/ad.webp" type="image/webp"><img src="img/ad.jpeg" alt="ad" draggable="false"/></picture></a></div>
-          <div class="header__nav"></div>
+          <div class="header__ad">
+            <h1>add </h1>
+          </div>
+          <div class="header__nav">
+            <div class="header__home"> <a href="index.html"> <img src="./img/house.svg" alt="home"/></a></div>
+            <div class="header__search"> 
+              <input type="text" name="search" placeholder="Исмингизни маносини кидиринг"/>
+              <button type="submit"> <img src="./img/search.svg" alt="search"/></button>
+            </div>
+            <div class="header__share"> 
+              <button> <img src="./img/share.svg" alt="send"/></button>
+            </div>
+          </div>
+          <div class="header__gender"> <a class="header__gender-type boy" href="#">
+              <div class="emoji">👦</div>
+              <h3>Болалар исми</h3></a><a class="header__gender-type girl" href="#">
+              <div class="emoji">👧</div>
+              <h3>Кизлар исми</h3></a></div>
         </div>
       </header>
       <footer class="footer">  
@@ -21,6 +38,6 @@
         </div>
       </footer>
     </div>
-    <script src="js/app.min.js?_v=20230312112343"> </script>
+    <script src="js/app.min.js?_v=20230312152843"> </script>
   </body>
 </html>

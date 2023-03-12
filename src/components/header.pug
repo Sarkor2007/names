@@ -2,7 +2,22 @@ mixin header()
     header.header 
         .container 
             .header__ad
-                a(href="#")
-                    img(src="@img/ad.jpeg", alt="ad" draggable="false")
+                h1 add 
             .header__nav
-                
+                .header__home 
+                    a(href="index.html") 
+                        img(src="./img/house.svg" alt="home")
+                .header__search 
+                    input(type="text" name="search" placeholder="Исмингизни маносини кидиринг")
+                    button(type="submit") 
+                        img(src="./img/search.svg" alt="search")    
+                .header__share 
+                    button 
+                        img(src="./img/share.svg" alt="send")
+            .header__gender 
+                a(href="#").header__gender-type.boy
+                    .emoji 👦
+                    h3 Болалар исми
+                a(href="#").header__gender-type.girl
+                    .emoji 👧
+                    h3 Кизлар исми
