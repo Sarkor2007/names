@@ -14,10 +14,25 @@ mixin header()
                 .header__share 
                     button 
                         img(src="./img/share.svg" alt="send")
-            .header__gender 
-                a(href="#").header__gender-type.boy
-                    .emoji 👦
-                    h3 Болалар исми
-                a(href="#").header__gender-type.girl
-                    .emoji 👧
-                    h3 Кизлар исми
+            .header__menu 
+                ul 
+                    li 
+                        a(href="#").header__menu-item 
+                            img(src="./img/star.svg" alt="top")
+                            span Топ 100
+                    li 
+                        a(href="#").header__menu-item 
+                            img(src="./img/search.svg" alt="search")
+                            span Кидириш
+                    li 
+                        a(href="#").header__menu-item 
+                            img(src="./img/like.svg" alt="like")
+                            span Бу кизик
+                    li 
+                        a(href="#").header__menu-item 
+                            img(src="./img/heart.svg" alt="like")
+                            span Севимлилар
+                    li 
+                        .header__menu-item 
+                            img(src="./img/more.svg" alt="like")
+                            span Яна
