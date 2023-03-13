@@ -482,7 +482,7 @@
 }
 
 .main__type-body::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: #7d7d7d;
 }
 
 .main__type-body ul {
@@ -509,6 +509,75 @@
   height: inherit;
   font-size: 16px;
   line-height: 24px;
+}
+
+.main__abc {
+  margin: 24px 0px;
+}
+
+.main__abc-title {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.main__abc-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
+}
+
+.main__abc-block .box {
+  width: calc(50% - 4px);
+  border-radius: 16px;
+  padding: 16px;
+}
+
+.main__abc-block .box h3 {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+
+.main__abc-block .box .alphabet {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main__abc-block .box .alphabet .item {
+  padding: 8px;
+  line-height: 24px;
+  font-size: 16px;
+  width: 16.6666666667%;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+}
+
+.main__abc-block .boy {
+  background: #06b6d4;
+}
+
+.main__abc-block .girl {
+  background: #ec4899;
+}
+
+.hello {
+  height: 200px;
 }
 
 * {
