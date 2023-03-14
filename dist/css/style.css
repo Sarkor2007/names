@@ -366,6 +366,51 @@
   margin-top: 4px;
 }
 
+.footer {
+  margin-top: 50px;
+  padding: 30px 0px 150px;
+  border-top: 1px solid #f3f4f6;
+}
+
+.footer__add {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.footer__copyright {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  color: #6b7280;
+  margin-top: 16px;
+}
+
+.footer__age {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 20px;
+  font-weight: 400;
+  color: white;
+  font-size: 14px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 8px;
+  margin: auto;
+  margin-top: 16px;
+  padding: 8px 6px 7px;
+  background: #ef4444;
+}
+
 .main__gender {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -716,6 +761,29 @@
 html,
 body {
   height: 100%;
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+html::-webkit-scrollbar-track,
+body::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+html::-webkit-scrollbar-thumb,
+body::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+html::-webkit-scrollbar-thumb:hover,
+body::-webkit-scrollbar-thumb:hover {
+  background: #7d7d7d;
 }
 
 .wrapper {
