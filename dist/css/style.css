@@ -999,6 +999,25 @@
   margin-top: 16px;
   overflow-x: auto;
   padding: 10px 0px;
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
+
+.detail__facts::-webkit-scrollbar {
+  height: 6px;
+}
+
+.detail__facts::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.detail__facts::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.detail__facts::-webkit-scrollbar-thumb:hover {
+  background: #7d7d7d;
 }
 
 .detail__facts ul {
@@ -1165,6 +1184,72 @@
 
 .detail__famous-bottom p a {
   color: #06b6d4;
+}
+
+.detail__like {
+  margin-top: 16px;
+}
+
+.detail__like-title {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+.detail__like-box {
+  margin-top: 10px;
+  overflow-x: auto;
+  padding: 6px 0px;
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
+
+.detail__like-box::-webkit-scrollbar {
+  height: 6px;
+}
+
+.detail__like-box::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.detail__like-box::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.detail__like-box::-webkit-scrollbar-thumb:hover {
+  background: #7d7d7d;
+}
+
+.detail__like-box ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
+}
+
+.detail__like-box ul li {
+  border-radius: 16px;
+}
+
+.detail__like-box ul li.boy {
+  background: #cffafe;
+  color: #0e7490;
+}
+
+.detail__like-box ul li.girl {
+  background: #fce7f3;
+  color: #be185d;
+}
+
+.detail__like-box ul li a {
+  color: inherit;
+  display: block;
+  padding: 8px 16px;
+  font-weight: 700;
 }
 
 * {
