@@ -1,4 +1,4 @@
-export function headerList() {
+export function headerFn() {
     const shareBtn = document.querySelector('.header__share-btn');
     const shareList = document.querySelector('.header__share-list');
     const menuBtn = document.querySelector('.header__menu-btn')

@@ -3,7 +3,7 @@
     .container {
         display: flex;
         flex-direction: column;
-        padding: 15px 15px;
+        padding: 15px;
     }
     &__ad {
         height: 180px;
@@ -186,7 +186,7 @@
             right: 15px;
             bottom: 110%;
             overflow: hidden;
-            width: 200px;
+            width: 250px;
             background: white;
             position: absolute;
             display: flex;
@@ -195,7 +195,7 @@
             z-index: 4;
             flex-direction: column;
             border-radius: 16px;
-            transition: opacity 0.2s ease-in-out;
+            transition: opacity 0.4s ease-in-out;
             box-shadow: 0px -1px 5px 1px rgb(215, 215, 215);
             &.active {
                 opacity: 1;
