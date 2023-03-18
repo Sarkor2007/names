@@ -1501,6 +1501,223 @@
   background: white;
 }
 
+.names__gender-type {
+  width: 100%;
+  min-height: 150px;
+  border-radius: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 6px;
+  padding: 16px;
+  text-decoration: none;
+  color: white;
+}
+
+.names__gender-type .emoji {
+  font-size: 26px;
+  width: 56px;
+  height: 56px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: white;
+  border-radius: 50%;
+}
+
+.names__gender-type h1 {
+  line-height: 1.5;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.names__gender .boy {
+  background: #06b6d4;
+}
+
+.names__gender .girl {
+  background: #fce7f3;
+}
+
+.names__type {
+  margin: 24px 0px;
+}
+
+.names__type-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.names__type-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.names__type-other {
+  font-size: 16px;
+}
+
+.names__type-body {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.names__type-body::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  right: -30px;
+  top: 0;
+  width: 30px;
+  height: 100%;
+  -webkit-box-shadow: 0px 0px 25px 40px white;
+          box-shadow: 0px 0px 25px 40px white;
+}
+
+.names__type-body ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 16px;
+  overflow-x: auto;
+  padding: 8px 0px;
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
+
+.names__type-body ul::-webkit-scrollbar {
+  height: 6px;
+}
+
+.names__type-body ul::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+.names__type-body ul::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+.names__type-body ul::-webkit-scrollbar-thumb:hover {
+  background: #7d7d7d;
+}
+
+.names__type-body ul li {
+  padding: 8px 16px;
+  border-radius: 16px;
+  background: #f3f4f6;
+}
+
+.names__type-body ul li a {
+  display: block;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: inherit;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.names__top {
+  margin: 24px 0px;
+}
+
+.names__top-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  margin-bottom: 16px;
+}
+
+.names__top-box {
+  background: #f3f4f6;
+  padding: 16px;
+  border-radius: 16px;
+}
+
+.names__top-box .box {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
+}
+
+.names__top-box .box ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: calc(50% - 4px);
+}
+
+.names__top-box .box ul li {
+  width: 100%;
+}
+
+.names__top-box .box ul li a {
+  display: block;
+  font-weight: 400;
+  width: 100%;
+  line-height: 1.5;
+  padding: 8px 0px;
+  color: inherit;
+}
+
+.names__top-box .box .boy {
+  color: #06b6d4;
+}
+
+.names__top-box .box .girl {
+  color: #ec4899;
+}
+
+.names__top-btn {
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  padding: 8px 16px;
+  background: white;
+  border-radius: 16px;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 16px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -1610,6 +1827,14 @@ ul {
   }
 
   .main__type-body ul::-webkit-scrollbar {
+    height: 2px;
+  }
+
+  .names__gender-type {
+    min-height: auto;
+  }
+
+  .names__type-body ul::-webkit-scrollbar {
     height: 2px;
   }
 }
