@@ -38,9 +38,11 @@ mixin alphabet()
                         li.alphabet__list-item Қ
                         li.alphabet__list-item Ғ
                         li.alphabet__list-item Ҳ
+            
             .alphabet__subtitle  
                 h2.alphabet__letter A
                 h3.alphabet__text харфдан бошланган исмлар
+            
             .alphabet__body 
                 .alphabet__filter 
                     ul.filter__list  
@@ -94,13 +96,13 @@ mixin alphabet()
                                     img(src="./img/noliked.svg" alt="noliked")
                                 .like__img.liked 
                                     img(src="./img/liked.svg" alt="liked")
-                .alphabet__pagination 
-                    button.alphabet__pagination-btn 
+                .pagination 
+                    button.pagination__btn 
                         img(src="./img/left-btn.svg" alt="left")
-                    .alphabet__pagination-box 
-                        .item.active 1
-                        .item 2
-                    button.alphabet__pagination-btn 
+                    .pagination__box 
+                        .pagination__box-item.active 1
+                        .pagination__box-item 2
+                    button.pagination__btn 
                         img(src="./img/right-btn.svg" alt="left")
 
 
