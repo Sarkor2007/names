@@ -1866,12 +1866,12 @@
 }
 
 .names__type-body ul li {
-  padding: 8px 16px;
   border-radius: 16px;
   background: #f3f4f6;
 }
 
 .names__type-body ul li a {
+  padding: 8px 16px;
   display: block;
   width: -webkit-max-content;
   width: -moz-max-content;
